@@ -7,7 +7,7 @@ Yooo Guys, sou o cadu e aqui decide fazer esse cantinho aqui para ajudar quem ta
 
 <p align="right">
   🟢 <b>Fundamentos</b><br><br>
-  Variáveis (<i>let</i>, <i>const</i>, <i>var</i>)<br><br>
+  <a href="https://www.typescriptlang.org/pt/docs/handbook/variable-declarations.html" target="_blank">Variaveis</a>  (<i>let</i>, <i>const</i>, <i>var</i>)<br><br>
   Tipos primitivos: <code>string</code>, <code>number</code>, <code>boolean</code>, <code>null</code>, <code>undefined</code><br><br>
   Tipos flexíveis: <code>any</code>, <code>unknown</code>
 </p>
