@@ -10,7 +10,7 @@ Também uso esse repositório como um backup caso eu me esqueça de algo. 😄
 <table>
   <tr>
     <td>
-      <img width="400" height="800" alt="bbb-removebg-preview" src="https://github.com/user-attachments/assets/7c65ccb4-3a68-4b8e-a87a-321f8ae5bb11" />
+      <img width="350" height="437" alt="png-clipart-lolita-anime-次元-fiction-character-anime-human-cartoon-removebg-preview" src="https://github.com/user-attachments/assets/e839cffa-ac1e-4296-8af1-b775abf05714" />
     </td>
     <td>
 
