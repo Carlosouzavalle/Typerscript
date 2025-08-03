@@ -1,4 +1,4 @@
-let valor : string;
+let valor : string | number = 3;
 
 console.log(valor);
 
