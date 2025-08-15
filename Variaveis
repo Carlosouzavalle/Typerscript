@@ -1,0 +1,7 @@
+Um pouco sobre Variaveis, bom imagine elas como caixas e existem diversos tipos de caixas feitas de diversos materias o mesmo vale para as variaveis.
+por exemp: você não vai colocar agua em uma caixa de papelão, não faz sentindo ela vai se despedaçar
+
+Trazendo para linguagens de programação as variaveis você vai encontrar os seguintes tipos:
+number = numerico
+string = valor de texto
+bool = valor boleano (verdadeiro/falso)
