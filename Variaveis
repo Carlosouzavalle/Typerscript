@@ -1,23 +1,43 @@
-# Variáveis em TypeScript
+# 📦 Variáveis em TypeScript
 
-Imagine que **variáveis são como caixas**. Cada tipo de caixa é feito para um propósito diferente e só suporta determinados conteúdos.
+Imagine que **variáveis são como caixas**. Cada tipo de caixa é feito para um propósito diferente e só suporta determinados conteúdos.  
 
-> Exemplo: você não colocaria água em uma caixa de papelão, porque ela se despedaçaria. O mesmo vale para as variáveis: cada tipo aceita apenas certos valores.
+> 💡 Exemplo: você não colocaria água em uma caixa de papelão, porque ela se despedaçaria. O mesmo vale para as variáveis: cada tipo aceita apenas certos valores.
 
-## Tipos básicos
+---
 
-| Tipo       | O que significa                                | Exemplo                         |
-|------------|-----------------------------------------------|--------------------------------|
-| `number`   | Valor numérico (inteiro ou decimal)           | `let idade: number = 26;`      |
-| `string`   | Texto                                         | `let nome: string = "Carlos";` |
-| `boolean`  | Verdadeiro ou falso                           | `let ativo: boolean = true;`   |
-| `null`     | Valor nulo (intencionalmente vazio)          | `let vazio: null = null;`      |
-| `undefined`| Valor indefinido (não inicializado)          | `let semValor: undefined;`     |
-| `any`      | Aceita qualquer tipo de valor                 | `let qualquer: any = 10;`      |
-| `unknown`  | Valor desconhecido (exige verificação antes de usar) | `let valor: unknown = "teste";` |
+## 🔹 Tipos básicos
 
-## Dicas
+| Tipo       | Significado                                | Exemplo                         |
+|------------|-------------------------------------------|--------------------------------|
+| 🧮 `number`   | Valor numérico (inteiro ou decimal)       | `let idade: number = 26;`      |
+| 📝 `string`   | Texto                                   | `let nome: string = "Carlos";` |
+| ✅ `boolean`  | Verdadeiro ou falso                     | `let ativo: boolean = true;`   |
+| ❌ `null`     | Valor nulo (intencionalmente vazio)    | `let vazio: null = null;`      |
+| ❓ `undefined`| Valor indefinido (não inicializado)    | `let semValor: undefined;`     |
+| 🌈 `any`      | Aceita qualquer tipo de valor           | `let qualquer: any = 10;`      |
+| 🕵️ `unknown`  | Valor desconhecido (exige verificação antes de usar) | `let valor: unknown = "teste";` |
+
+---
+
+## 💡 Dicas
 
 - Prefira tipos específicos como `number`, `string` e `boolean`.  
-- `any` quebra a segurança do TypeScript, use com cuidado.  
-- `unknown` é mais seguro que `any`, pois exige verificação de tipo antes de usar.
+- ⚠️ `any` quebra a segurança do TypeScript, use com cuidado.  
+- 🔒 `unknown` é mais seguro que `any`, pois exige verificação de tipo antes de usar.
+
+---
+
+## 🎯 Exemplo prático
+
+```ts
+let idade: number = 26;
+let nome: string = "Carlos";
+let ativo: boolean = true;
+let qualquer: any = "Pode ser qualquer coisa";
+let valor: unknown = 42;
+
+// Verificação de unknown
+if (typeof valor === "number") {
+    console.log(valor + 10); // Ok, é number
+}
