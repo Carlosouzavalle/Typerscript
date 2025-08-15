@@ -1,8 +1,10 @@
 # 📦 Variáveis em TypeScript
 
-Imagine que **variáveis são como caixas**. Cada tipo de caixa é feito para um propósito diferente e só suporta determinados conteúdos.  
+Imagine que **variáveis são como caixas**. Cada tipo de caixa é feito para um propósito diferente 
+e só suporta determinados conteúdos.  
 
-> 💡 Exemplo: você não colocaria água em uma caixa de papelão, porque ela se despedaçaria. O mesmo vale para as variáveis: cada tipo aceita apenas certos valores.
+> 💡 Exemplo: você não colocaria água em uma caixa de papelão, porque ela se despedaçaria. 
+O mesmo vale para as variáveis: cada tipo aceita apenas certos valores.
 
 ---
 
