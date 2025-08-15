@@ -1,7 +1,23 @@
-Um pouco sobre Variaveis, bom imagine elas como caixas e existem diversos tipos de caixas feitas de diversos materias o mesmo vale para as variaveis.
-por exemp: você não vai colocar agua em uma caixa de papelão, não faz sentindo ela vai se despedaçar
+# Variáveis em TypeScript
 
-Trazendo para linguagens de programação as variaveis você vai encontrar os seguintes tipos:
-number = numerico
-string = valor de texto
-bool = valor boleano (verdadeiro/falso)
+Imagine que **variáveis são como caixas**. Cada tipo de caixa é feito para um propósito diferente e só suporta determinados conteúdos.
+
+> Exemplo: você não colocaria água em uma caixa de papelão, porque ela se despedaçaria. O mesmo vale para as variáveis: cada tipo aceita apenas certos valores.
+
+## Tipos básicos
+
+| Tipo       | O que significa                                | Exemplo                         |
+|------------|-----------------------------------------------|--------------------------------|
+| `number`   | Valor numérico (inteiro ou decimal)           | `let idade: number = 26;`      |
+| `string`   | Texto                                         | `let nome: string = "Carlos";` |
+| `boolean`  | Verdadeiro ou falso                           | `let ativo: boolean = true;`   |
+| `null`     | Valor nulo (intencionalmente vazio)          | `let vazio: null = null;`      |
+| `undefined`| Valor indefinido (não inicializado)          | `let semValor: undefined;`     |
+| `any`      | Aceita qualquer tipo de valor                 | `let qualquer: any = 10;`      |
+| `unknown`  | Valor desconhecido (exige verificação antes de usar) | `let valor: unknown = "teste";` |
+
+## Dicas
+
+- Prefira tipos específicos como `number`, `string` e `boolean`.  
+- `any` quebra a segurança do TypeScript, use com cuidado.  
+- `unknown` é mais seguro que `any`, pois exige verificação de tipo antes de usar.
