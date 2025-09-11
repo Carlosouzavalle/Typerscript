@@ -32,3 +32,12 @@ console.log(idade);
     - any (usado quando não se sabe o tipo da variável)
     - never (usado quando uma função nunca retorna, por exemplo, uma função que lança um erro)
 */
+
+
+// let sla: unknown = "qualquer coisa"; // tipo desconhecido, usado quando não se sabe o tipo da variável
+// sla.toFixed(2); // erro, pois o tipo é desconhecido
+// console.log( sla);
+
+let sla: any = "qualquer coisa"; // tipo desconhecido, usado quando não se sabe o tipo da variável
+sla.toFixed(2); // erro, pois o tipo é desconhecido
+console.log(sla);
