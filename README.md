@@ -15,7 +15,7 @@ Também uso esse repositório como um backup caso eu me esqueça de algo. 😄
     <td>
 
 🟢 **Fundamentos**  
-🔗 <a href="https://www.typescriptlang.org/pt/docs/handbook/variable-declarations.html" target="_blank">Variáveis</a> (`let`, `const`, `var`)  
+🔗 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/Variaveis" target="_blank">Variáveis</a> (`let`, `const`, `var`)  
 📌 Tipos primitivos: `string`, `number`, `boolean`, `null`, `undefined`  
 📌 Tipos flexíveis: `any`, `unknown`
     </td>
