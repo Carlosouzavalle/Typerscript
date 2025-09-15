@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "sound-play": "^1.1.0"
   }
 }
