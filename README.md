@@ -32,7 +32,7 @@ Também uso esse repositório como um backup caso eu me esqueça de algo. 😄
   <td>
 
 🟢 **Laços de Repetição e Condicionais**  
-📌 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/Conditionals" target="_blank"></a>Condicionais: `if`, `else if`, `else`  
+📌 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/Conditionals" target="_blank">Condicionais:</a> `if`, `else if`, `else`  
 📌 Laços de repetição: `for`, `while`
     </td>
   </tr>
