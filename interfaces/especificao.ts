@@ -8,6 +8,7 @@ interface Especificacoes {
     armazenamento: string;
     [extra: string]: string | number | boolean;
 }
+
 // o fato de termos essa linha aq
 // [extra: string]: string | number | boolean;
 // significa que podemos adicionar propriedades extras

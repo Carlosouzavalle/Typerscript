@@ -4,6 +4,8 @@ interface Animal {
     domestico: boolean,
 };
 
+
+
 interface Pet extends Animal {
     dono: string;
 }
