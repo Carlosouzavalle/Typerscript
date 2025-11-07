@@ -24,6 +24,8 @@ Também uso esse repositório como um backup caso eu me esqueça de algo. 😄
 
 ---
 
+<!-- Condicionais e Ciclos vão aqui abaixo -->
+
 <table>
   <tr>
     <td>
@@ -38,7 +40,8 @@ Também uso esse repositório como um backup caso eu me esqueça de algo. 😄
   </tr>
 </table>
 
-===
+<!-- Funções vão aqui abaixo -->
+
 
 
 <table>
