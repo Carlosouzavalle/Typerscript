@@ -1,0 +1,104 @@
+TypeScript é basicamente JavaScript com tipos, então tudo que você já sabe de funções
+ em JS continua valendo, mas com o bônus da tipagem.
+//=====================================================================================================================================
+
+🧩 1. Função básica com tipo:
+
+function saudacao(nome: string): string {
+  return `Olá, ${nome}!`
+}
+
+
+Você tera
+console.log(saudacao("Carlos"))
+
+//=====================================================================================================================================
+
+⚙️ 2. Função sem retorno (void):
+
+function mostrarMensagem(mensagem: string): void {
+  console.log(mensagem)
+}
+
+void significa que a função não retorna nada.
+
+//=====================================================================================================================================
+
+🧠 3. Função com parâmetros opcionais:
+
+function apresentar(nome: string, idade?: number): string {
+  return idade 
+    ? `${nome} tem ${idade} anos.`
+    : `${nome} preferiu não informar a idade.`
+}
+
+🔹 O ? indica que o parâmetro é opcional.
+Se não for passado, o valor será undefined.
+
+//=====================================================================================================================================
+
+🔁 4. Arrow Function tipada:
+
+const somar = (a: number, b: number): number => {
+  return a + b
+}
+
+console.log(somar(10, 5))
+
+💡 A tipagem segue o mesmo padrão: (a: tipo, b: tipo): tipoDeRetorno.
+
+//=====================================================================================================================================
+
+🧱 5. Função com tipo definido (type ou interface)
+Você pode criar um tipo para funções:
+
+
+type Operacao = (x: number, y: number) => number
+
+const multiplicar: Operacao = (x, y) => x * y
+const dividir: Operacao = (x, y) => x / y
+
+Isso é ótimo para reutilizar tipos de função em vários lugares.
+
+//=====================================================================================================================================
+
+⚡ 6. Função com valor padrão:
+
+function mensagem(nome: string = "visitante"): string {
+  return `Bem-vindo, ${nome}!`
+}
+console.log(mensagem()) // "Bem-vindo, visitante!"
+
+Se o parâmetro não for passado, ele assume o valor "visitante".
+
+//=====================================================================================================================================
+
+🧮 7. Função que aceita vários tipos (union types):
+
+function mostrarId(id: string | number) {
+  console.log(`ID: ${id}`)
+}
+
+mostrarId(123)
+mostrarId("abc")
+
+💡 string | number → significa “string ou number”.
+
+//=====================================================================================================================================
+
+🧬 8. Função genérica (avançado, mas muito útil):
+
+function identidade<T>(valor: T): T {
+  return valor
+}
+
+console.log(identidade<string>("Olá"))
+console.log(identidade<number>(123))
+
+🔹 T é um parâmetro de tipo genérico, útil quando o tipo depende do que for passado.
+
+
+
+
+
+
