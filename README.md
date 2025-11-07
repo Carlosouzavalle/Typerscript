@@ -50,8 +50,7 @@ Também uso esse repositório como um backup caso eu me esqueça de algo. 😄
     <td>
 
 🟢 **Funções**  
-📌 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/functions" target="_blank">Functions:</a>
-📌 Funções com parametros, arrow function, utilização de generics e interface
+📌 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/functions" target="_blank">Functions:</a> Funções com parametros, arrow function, utilização de generics e interface
     </td>
   </tr>
 </table>
