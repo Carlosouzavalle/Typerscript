@@ -37,3 +37,19 @@ Também uso esse repositório como um backup caso eu me esqueça de algo. 😄
     </td>
   </tr>
 </table>
+
+===
+
+
+<table>
+  <tr>
+    <td><img width="350" height="437" alt="anime-girl-with-cheeky-wink-cheerful-girl-pointing-with-stars-dCQW3sie-Photoroom" src="https://github.com/user-attachments/assets/8272a9f9-1d58-4344-b29f-2b31c1dc4cf4" />
+    <td>
+
+🟢 **Funções**  
+📌 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/Conditionals" target="_blank">Condicionais:</a> `if`, `else if`, `else`  
+    </td>
+  </tr>
+</table>
+
+
