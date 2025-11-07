@@ -47,7 +47,7 @@ Também uso esse repositório como um backup caso eu me esqueça de algo. 😄
     <td>
 
 🟢 **Funções**  
-📌 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/Conditionals" target="_blank">Condicionais:</a> `if`, `else if`, `else`  
+📌 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/functions" target="_blank">Functions:</a>  
     </td>
   </tr>
 </table>
