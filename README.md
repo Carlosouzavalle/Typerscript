@@ -47,7 +47,7 @@ Também uso esse repositório como um backup caso eu me esqueça de algo. 😄
     <td>
 
 🟢 **Funções**  
-📌 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/functions" target="_blank">Functions:</a>  
+📌 <a href="https://github.com/Carlosouzavalle/Typerscript/blob/main/functions" target="_blank">Functions: funções com parametros, arrow, utilização de generics e interface</a>  
     </td>
   </tr>
 </table>
